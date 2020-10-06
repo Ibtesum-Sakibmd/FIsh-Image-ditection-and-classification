@@ -9,7 +9,7 @@ Here, I only did image classification and I will do the image detection further.
  # Using IDE
  GOOGLE COLAB 
  
- # Impoting libraries
+ # Libraries requirements 
  
   1.absl-py==0.9.0<br />
   2.astunparse==1.6.3<br />
@@ -117,7 +117,7 @@ Here, I only did image classification and I will do the image detection further.
   105.zipp==3.1.0<br />
 
 # Dataset
-I used two dataset and merge it to one another.
+I used two datasets and merged it to one another.<br />
 1st dataset : https://swfscdata.nmfs.noaa.gov/labeled-fishes-in-the-wild/  <br />
 2nd dataset : https://www.sciencedirect.com/science/article/pii/S2352340919309205 (I take only catla folder from this dataset to the test set to check the train and test accuracy)  <br />
 
@@ -129,3 +129,5 @@ I used two dataset and merge it to one another.
  I want to show the train and validation accuracy.
  
  ![Accuracy](accc.JPG)
+# Conclusion
+The prediction is almost 100 percent. It is because the dataset used for the classification which is too small and the inception V3 model has a huge parameter.  
