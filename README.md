@@ -123,6 +123,9 @@ I used two dataset and merge it to one another.
 
 # Loss Function
  I want to show the loss of train set and validation(test) set.
+ 
+ ![Loss](trainloss.JPG)
 # Accuracy 
  I want to show the train and validation accuracy.
  
+ ![Accuracy](accc.JPG)
